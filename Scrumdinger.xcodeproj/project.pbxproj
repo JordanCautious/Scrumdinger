@@ -15,6 +15,7 @@
 		EC4A60D82863B2FE002C2B78 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60D72863B2FE002C2B78 /* DailyScrum.swift */; };
 		EC4A60DA2863B395002C2B78 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60D92863B395002C2B78 /* CardView.swift */; };
 		EC4A60DC2863B7F3002C2B78 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60DB2863B7F3002C2B78 /* TrailingIconLabelStyle.swift */; };
+		EC4A60DE2863D41B002C2B78 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60DD2863D41B002C2B78 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EC4A60D72863B2FE002C2B78 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		EC4A60D92863B395002C2B78 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EC4A60DB2863B7F3002C2B78 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		EC4A60DD2863D41B002C2B78 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EC4A60C62862B92F002C2B78 /* ScrumdingerApp.swift */,
 				EC4A60C82862B92F002C2B78 /* MeetingView.swift */,
 				EC4A60D92863B395002C2B78 /* CardView.swift */,
+				EC4A60DD2863D41B002C2B78 /* ScrumsView.swift */,
 				EC4A60DB2863B7F3002C2B78 /* TrailingIconLabelStyle.swift */,
 				EC4A60CA2862B935002C2B78 /* Assets.xcassets */,
 				EC4A60CC2862B935002C2B78 /* Preview Content */,
@@ -81,8 +84,8 @@
 		EC4A60D42863B243002C2B78 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EC4A60D52863B25B002C2B78 /* Theme.swift */,
 				EC4A60D72863B2FE002C2B78 /* DailyScrum.swift */,
+				EC4A60D52863B25B002C2B78 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				EC4A60D82863B2FE002C2B78 /* DailyScrum.swift in Sources */,
 				EC4A60DC2863B7F3002C2B78 /* TrailingIconLabelStyle.swift in Sources */,
 				EC4A60D62863B25B002C2B78 /* Theme.swift in Sources */,
+				EC4A60DE2863D41B002C2B78 /* ScrumsView.swift in Sources */,
 				EC4A60C92862B92F002C2B78 /* MeetingView.swift in Sources */,
 				EC4A60C72862B92F002C2B78 /* ScrumdingerApp.swift in Sources */,
 				EC4A60DA2863B395002C2B78 /* CardView.swift in Sources */,
