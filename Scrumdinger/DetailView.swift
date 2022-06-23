@@ -10,13 +10,15 @@ import SwiftUI
 struct DetailView: View {
     let scrum: DailyScrum
     
+    @State private var isPresentingEditView = false
+    
     var body: some View {
         List {
             Section(header: Text("Meeting Info")) {
                 NavigationLink(destination: MeetingView()) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
-                    .foregroundColor(.accentColor)
+                        .foregroundColor(.accentColor)
                 }
                 HStack {
                     Label("Length", systemImage: "clock")
@@ -28,10 +30,10 @@ struct DetailView: View {
                     Label("Theme", systemImage: "paintpalette")
                     Spacer()
                     Text(scrum.theme.name)
-                        .padding(5)
+                        .padding(4)
                         .foregroundColor(scrum.theme.accentColor)
                         .background(scrum.theme.mainColor)
-                        .cornerRadius(5)
+                        .cornerRadius(4)
                 }
                 .accessibilityElement(children: .combine)
             }
@@ -42,6 +44,29 @@ struct DetailView: View {
             }
         }
         .navigationTitle(scrum.title)
+        .toolbar {
+            Button("Edit") {
+                isPresentingEditView = true
+            }
+        }
+        .sheet(isPresented: $isPresentingEditView) {
+            NavigationView {
+                DetailEditView()
+                    .navigationTitle(scrum.title)
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button("Cancel") {
+                                isPresentingEditView = false
+                            }
+                        }
+                        ToolbarItem(placement: .confirmationAction) {
+                            Button("Done") {
+                                isPresentingEditView = false
+                            }
+                        }
+                    }
+            }
+        }
     }
 }
 
