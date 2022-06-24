@@ -11,10 +11,10 @@ struct CardView: View {
     let scrum: DailyScrum
     
     var body: some View {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading) {
             Text(scrum.title)
-                .font(.headline)
                 .accessibilityAddTraits(.isHeader)
+                .font(.headline)
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
