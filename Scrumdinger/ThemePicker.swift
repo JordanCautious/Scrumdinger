@@ -22,6 +22,6 @@ struct ThemePicker: View {
 
 struct ThemePicker_Previews: PreviewProvider {
     static var previews: some View {
-        ThemePicker(selection: .constant(.periwinkle))
+        ThemePicker(selection: .constant(.navy))
     }
 }
