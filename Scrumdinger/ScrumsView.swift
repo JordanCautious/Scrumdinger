@@ -34,5 +34,10 @@ struct ScrumsView_Previews: PreviewProvider {
         NavigationView {
             ScrumsView(scrums: .constant(DailyScrum.sampleData))
         }
+        .preferredColorScheme(.dark)
+        NavigationView {
+            ScrumsView(scrums: .constant(DailyScrum.sampleData))
+        }
+        .preferredColorScheme(.light)
     }
 }
