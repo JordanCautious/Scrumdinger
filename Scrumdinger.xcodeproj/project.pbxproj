@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3944302875186A001BF227 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39442F2875186A001BF227 /* ScrumStore.swift */; };
 		EC4A60C72862B92F002C2B78 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60C62862B92F002C2B78 /* ScrumdingerApp.swift */; };
 		EC4A60C92862B92F002C2B78 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A60C82862B92F002C2B78 /* MeetingView.swift */; };
 		EC4A60CB2862B935002C2B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4A60CA2862B935002C2B78 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC39442F2875186A001BF227 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		EC4A60C32862B92F002C2B78 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4A60C62862B92F002C2B78 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		EC4A60C82862B92F002C2B78 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				ECACE59B2870D7D700E7E743 /* AVPlayer+Ding.swift */,
 				EC4A60D72863B2FE002C2B78 /* DailyScrum.swift */,
 				EC6AE9FF28728B3100A8697E /* History.swift */,
+				EC39442F2875186A001BF227 /* ScrumStore.swift */,
 				ECACE5952870D55200E7E743 /* ScrumTimer.swift */,
 				EC4A60D52863B25B002C2B78 /* Theme.swift */,
 			);
@@ -206,6 +209,7 @@
 				EC4A60E628654F6C002C2B78 /* ThemePicker.swift in Sources */,
 				ECACE5922870D2FD00E7E743 /* ScrumProgressViewStyle.swift in Sources */,
 				ECACE5982870D5F700E7E743 /* MeetingFooterView.swift in Sources */,
+				EC3944302875186A001BF227 /* ScrumStore.swift in Sources */,
 				ECACE5962870D55200E7E743 /* ScrumTimer.swift in Sources */,
 				EC4A60D82863B2FE002C2B78 /* DailyScrum.swift in Sources */,
 				EC4A60E02863DB1C002C2B78 /* DetailView.swift in Sources */,
